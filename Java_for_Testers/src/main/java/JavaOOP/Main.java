@@ -21,7 +21,7 @@ public class Main {
         programming.isLearningComplete();
         programming.learningStatus();*/
 
-        ClassDemo instance = new ClassDemo();
+        /*ClassDemo instance = new ClassDemo();
         ClassDemo instance2 = new ClassDemo();
         instance2.text = "New text";
         instance.number = 5;
@@ -32,6 +32,9 @@ public class Main {
         instance.printText();
         instance2.printText();
 
+        ClassDemo.number = 5;*/
+
+
 
         /*Lamp kitchenLamp = new Lamp("Kitchen");
         Lamp bedroomLamp = new Lamp("Bedroom");
@@ -41,6 +44,14 @@ public class Main {
         kitchenLamp.printLightStatus();
         bedroomLamp.printLightStatus();*/
 
+        Cat cat1 = new Cat("Tom", "British");
+        cat1.setName("Simba");
+        System.out.println("Cat1 " + cat1.getBreed());
 
+        cat1.sleep();
+        cat1.makeSound();
+
+        Dog dog1 = new Dog();
+        dog1.makeSound();
     }
 }

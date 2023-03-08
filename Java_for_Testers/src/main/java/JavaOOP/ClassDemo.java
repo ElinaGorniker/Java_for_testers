@@ -1,7 +1,7 @@
 package JavaOOP;
 
 public class ClassDemo {
-    public int number = 5;
+    public static int number = 5;
     public String text = "Some text";
 
     public void printNumber() {
